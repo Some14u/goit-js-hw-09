@@ -1,7 +1,5 @@
-/*
- * Главный файл стилей.
- * Все паршалы подключаются сюда.
- */
+ $box-shadow: 0px 10px 13px -7px black;
 
-// Стили для файла с примером HTML-фрагмента
-@import './example';
+$body-bg: #fafafa;
+
+@import "../node_modules/bootstrap/scss/bootstrap";

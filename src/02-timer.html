@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countdown timer</title>
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="sass/main.scss" />
+  </head>
+  <body class="m-3 d-inline-flex flex-column" >
+    <p><a href="index.html">Go back</a></p>
+    <div class="input-group mb-3 me-auto shadow rounded-2">
+      <input class="form-control flex-grow-0 w-auto" type="text" id="datetime-picker" />
+      <button class="btn btn-primary" type="button" data-start>Start</button>
+    </div>
+    <div class="timer d-flex justify-content-between text-center text-uppercase fw-semibold">
+      <div class="field d-flex flex-column">
+        <span class="value fs-1" data-days>00</span>
+        <span class="label">Days</span>
+      </div>
+      <div class="field d-flex flex-column">
+        <span class="value fs-1" data-hours>00</span>
+        <span class="label">Hours</span>
+      </div>
+      <div class="field d-flex flex-column">
+        <span class="value fs-1" data-minutes>00</span>
+        <span class="label">Minutes</span>
+      </div>
+      <div class="field d-flex flex-column">
+        <span class="value fs-1" data-seconds>00</span>
+        <span class="label">Seconds</span>
+      </div>
+    </div>
+
+    <script src="js/02-timer.js"></script>
+  </body>
+</html>
